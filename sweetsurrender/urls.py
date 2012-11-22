@@ -8,7 +8,10 @@ from django.conf import settings
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'sweetsurrender.views.home', name='home'),
-    url(r'^sweetsurrender/$', 'sweetsurrender.views.home'),
+    url(r'^sweetsurrender/$', 'sweetsurrender.views.home',name='home'),
+    url(r'^sweetsurrender/product/$', 'sweetsurrender.views.product', name='product'),
+    url(r'^sweetsurrender/about/$', 'sweetsurrender.views.about', name='about-us'),
+    
     # url(r'^sweetsurrender/', include('sweetsurrender.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
