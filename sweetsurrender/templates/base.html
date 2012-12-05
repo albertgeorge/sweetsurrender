@@ -1,3 +1,4 @@
+{% load tags %}
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
@@ -35,9 +36,9 @@
 				</div>-->
 			</div>
 			<ul>
-				<li><a href="{% url home %}">Home</a></li>
-				<li><a href="{% url product %}">The Pastry shop</a></li>
-				<li><a href="{% url about-us %}">About us</a></li>
+				<li class="{% active 'home_url' %}"><a href="{% url home_url %}">Home</a></li>
+				<li class="{% active 'product_url' %}"><a href="{% url product_url %}">The Pastry shop</a></li>
+				<li class="{% active 'aboutus_url' %}"><a href="{% url aboutus_url %}">About us</a></li>
 				<!--<li><a href="services.html">Services</a></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="contact.html">Contact Us</a></li>-->

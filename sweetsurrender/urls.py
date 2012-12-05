@@ -8,9 +8,9 @@ from django.conf import settings
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'sweetsurrender.views.home', name='home'),
-    url(r'^sweetsurrender/$', 'sweetsurrender.views.home',name='home'),
-    url(r'^sweetsurrender/product/$', 'sweetsurrender.views.product', name='product'),
-    url(r'^sweetsurrender/about/$', 'sweetsurrender.views.about', name='about-us'),
+    url(r'^sweetsurrender/$', 'sweetsurrender.views.home', name='home_url'),
+    url(r'^sweetsurrender/product/$', 'sweetsurrender.views.product', name='product_url'),
+    url(r'^sweetsurrender/about/$', 'sweetsurrender.views.about',name='aboutus_url'),
     
     # url(r'^sweetsurrender/', include('sweetsurrender.foo.urls')),
 
