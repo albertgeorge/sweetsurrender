@@ -317,7 +317,7 @@ p a {
 #content div#about div.section div#visitshop div a.visit,
 #content div div.section div#visitshop div a.visit,
 #content div div#visitshop div a.visit {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -491px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -491px;
 	color: #6E4253;
     display: block;
     font-size: 18px;
@@ -363,7 +363,7 @@ p a {
 }
 
 #content div#about div.section div a.callus {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -232px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -232px;
 	color: #c04973;
 	display: block;
 	font-size: 18px;
@@ -457,7 +457,7 @@ p a {
 }
 
 #content div ul li div div a.view {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -451px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -451px;
 	color: #84284d;
 	display: block;
 	height: 30px;
@@ -497,7 +497,7 @@ p a {
 }
 
 #content div.home div.section {
-	background: url(../static/images/bg-foodstory.gif) repeat-y top center;
+	background: url(/static/images/bg-foodstory.gif) repeat-y top center;
 	float: right;
 	height: 420px;
 	padding: 20px;
@@ -571,7 +571,7 @@ p a {
 }
 
 #content div form input.textcontact {
-	background: url(../static/images/input-contact.gif) no-repeat 0 0;
+	background: url(/static/images/input-contact.gif) no-repeat 0 0;
 	border: 0 none;
 	font-weight: bold;
     height: 30px;
@@ -589,7 +589,7 @@ p a {
 }
 
 #content div form input.submit {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -411px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -411px;
 	border: 0;
 	display: block;
 	margin-left: 780px;
@@ -619,7 +619,7 @@ p a {
 }
 
 #content div#blog div#articles ul li {
-	background: url(../static/images/bg-post.gif) repeat-y;
+	background: url(/static/images/bg-post.gif) repeat-y;
 	display: block;
 	height: auto;
 	position: relative;
@@ -628,12 +628,12 @@ p a {
 }
 
 #content div#blog div#articles ul li div {
-	background: url(../static/images/bg-post-header.gif) no-repeat center top;
+	background: url(/static/images/bg-post-header.gif) no-repeat center top;
 	position: static;
 }
 
 #content div#blog div#articles ul li div div {
-	background: url(../static/images/bg-post-footer.gif) no-repeat center bottom;
+	background: url(/static/images/bg-post-footer.gif) no-repeat center bottom;
 }
 
 #content div#blog div#articles ul li div div h1 {
@@ -695,7 +695,7 @@ p a {
 }
 
 #content div#blog div#articles div.section {
-	background: url(../static/images/border-horizontal.gif) no-repeat 40px top;
+	background: url(/static/images/border-horizontal.gif) no-repeat 40px top;
 	float: none;
     overflow: hidden;
     padding-left: 35px;
@@ -723,15 +723,15 @@ p a {
 }
 
 #content div#blog div#articles ul li div div span.connect a.twitter {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -362px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -362px;
 }
 
 #content div#blog div#articles ul li div div span.connect a.heart {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -171px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -171px;
 }
 
 #content div#blog div#articles ul li div div span.connect a.facebook {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -112px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -112px;
 }
 
 #content div#blog div#articles ul li div div span#tag {
@@ -756,7 +756,7 @@ p a {
 }
 
 #content div#blog div#sidebar h2 {
-	background: url(../static/images/sidebar-separator.gif) no-repeat center bottom;
+	background: url(/static/images/sidebar-separator.gif) no-repeat center bottom;
 	font-size: 18px;
 	font-weight: normal;
 	margin: 20px 0 0;
@@ -764,7 +764,7 @@ p a {
 }
 
 #content div#blog div#sidebar h3 {
-	background: url(../static/images/sidebar-separator.gif) no-repeat center bottom;
+	background: url(/static/images/sidebar-separator.gif) no-repeat center bottom;
 	font-size: 18px;
 	font-weight: normal;
     margin: 0;
@@ -782,7 +782,7 @@ p a {
 }
 
 #content div#blog div#sidebar h3 a {
-	background: url(../static/images/arrow-down.gif) no-repeat 175px 5px;
+	background: url(/static/images/arrow-down.gif) no-repeat 175px 5px;
 	display: block;
 	color: #ff2279;
 	text-decoration: none;
@@ -793,7 +793,7 @@ p a {
 }
 
 #content div#blog div#sidebar h3.first a {
-	background: url(../static/images/arrow-up.gif) no-repeat 175px 5px;
+	background: url(/static/images/arrow-up.gif) no-repeat 175px 5px;
 }
 
 #content div#blog div#sidebar div p a {
@@ -806,14 +806,14 @@ p a {
 }
 
 #content div#blog div#sidebar div {
-	background: url(../static/images/sidebar-separator.gif) no-repeat center bottom;
+	background: url(/static/images/sidebar-separator.gif) no-repeat center bottom;
 	padding-right: 0;
 	padding-bottom: 15px;
 	width: auto;
 }
 
 #content div div#account {
-	background: url(../static/images/bg-form-top-curve.gif) no-repeat center top;	
+	background: url(/static/images/bg-form-top-curve.gif) no-repeat center top;	
 	color: #5F5D5E;
 	margin: 60px auto 0;
 	padding: 10px 0 0 ;
@@ -822,13 +822,13 @@ p a {
 
 #content div div#account div {
 	
-	background: url(../static/images/bg-form-bottom-curve.gif) no-repeat center bottom;
+	background: url(/static/images/bg-form-bottom-curve.gif) no-repeat center bottom;
 	padding: 0 0 10px;
 	width: auto;
 }
 
 #content div div#account div form {
-	background: url(../static/images/bg-form.gif) repeat-y;
+	background: url(/static/images/bg-form.gif) repeat-y;
 	margin: 0;
 	padding-bottom: 15px;
 }
@@ -878,7 +878,7 @@ p a {
 }
 
 #content div div#account div form input.submitbtn {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -376px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -376px;
 	color: #84284D;
 	border: 0;
 	height: 25px;
@@ -895,7 +895,7 @@ p a {
 }
 
 #footer div.home {
-	background: url(../static/images/bg-footer.gif) repeat-x top left;
+	background: url(/static/images/bg-footer.gif) repeat-x top left;
 	height: 336px;
     padding: 0;
     width: auto;
@@ -961,23 +961,23 @@ p a {
 
 #footer div.home div div.aside div.connect ul li a.facebook,
 #footer div.section div div.connect ul li a.facebook {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -30px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -30px;
 }
 
 #footer div.home div div.aside div.connect ul li a.twitter{
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -335px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -335px;
 }
 
 #footer div.section div div.connect ul li a.twitter {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -416px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -416px;
 }
 
 #footer div.home div div.aside div.connect ul li a.subscribe {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -202px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -202px;
 }
 
 #footer div.section div div.connect ul li a.subscribe {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -389px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -389px;
 }
 
 #footer div.home div div.aside div.connect ul li a.flicker {
@@ -985,12 +985,12 @@ p a {
 }
 
 #footer div.section div div.connect ul li a.flicker {
-	background: url(../static/images/sprite-icons.gif) no-repeat 0 -56px;
+	background: url(/static/images/sprite-icons.gif) no-repeat 0 -56px;
 }
 
 #footer div.home div div.aside div.signup, 
 #footer div.section div div.aside div {
-	background: url(../static/images/bg-sign-up.gif) no-repeat 0 0;
+	background: url(/static/images/bg-sign-up.gif) no-repeat 0 0;
 	height: 195px;
 	position: relative;
 	width: auto;
@@ -1008,7 +1008,7 @@ p a {
 
 #footer div.home div div.aside div.signup  div a,
 #footer div.section div div.aside div div a {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -331px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -331px;
 	color: #84284D;
 	display: block;
 	height: 35px;
@@ -1036,7 +1036,7 @@ p a {
 }
 
 #footer div.home div div.section {
-	background: url(../static/images/bg-featured-bottom-curve.jpg) no-repeat center bottom;
+	background: url(/static/images/bg-featured-bottom-curve.jpg) no-repeat center bottom;
 	float: right;
 	height: 283px;
 	margin-top: 19px;
@@ -1051,12 +1051,12 @@ p a {
 }
 
 #footer div.home div div.section div {
-	background: url(../static/images/bg-featured.jpg) repeat-y;
+	background: url(/static/images/bg-featured.jpg) repeat-y;
 	width: auto;
 }
 
 #footer div.home div div.section div div {
-	background: url(../static/images/bg-featured-heading.gif) no-repeat center top;
+	background: url(/static/images/bg-featured-heading.gif) no-repeat center top;
 	padding: 75px 20px 0;
 	width: 431px;
 }
@@ -1123,7 +1123,7 @@ p a {
 }
 
 #footer div#featured ul li p a.readmore {
-	background: url(../static/images/sprite-buttons.gif) no-repeat 0 -265px;
+	background: url(/static/images/sprite-buttons.gif) no-repeat 0 -265px;
 	color: #d4a7bb;
 	display: inline-block;
 	height: 16px;
@@ -1147,7 +1147,7 @@ p a {
 }
 
 #footer div#navigation div ul {
-	background: url(../static/images/footer-top-border.jpg) no-repeat top center;
+	background: url(/static/images/footer-top-border.jpg) no-repeat top center;
 	list-style: none;
 	margin: 0 auto;
 	overflow: hidden;
@@ -1188,8 +1188,46 @@ p a {
 }
 
 #footer div.section {
-	background: url(../static/images/bg-footer2.gif) repeat-x top left;
+	background: url(/static/images/bg-footer2.gif) repeat-x top left;
 	height: 226px;
     padding: 0;
     width: auto;
+}
+
+.nivoSlider {
+	position:relative;
+	width:100%;
+	height:auto;
+	overflow: hidden;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+
+.theme-bar.slider-wrapper {
+    position: relative;
+    border: 1px solid #333;
+    overflow: hidden;
 }

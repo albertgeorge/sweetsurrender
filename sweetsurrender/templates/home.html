@@ -2,17 +2,19 @@
 {% block banner %}
 <div id="section">
 	<ul>
-		<li><a href="index.html">wedding cakes</a></li>
-		<li><a href="index.html">fondant cakes</a></li>
-		<li><a href="index.html">cream cakes</a></li>
-		<li class="selected"><a href="index.html">cupcakes</a></li>
-		<li><a href="index.html">sugar-free cakes</a></li>
-		<li><a href="index.html">cheese cakes</a></li>
-		<li><a href="index.html">cookies</a></li>
-		<!--<li><a href="index.html">swiss roll</a></li>-->
-		<li><a href="index.html">other desserts</a></li>
+		<li><a href="{% url product_url %}">wedding cakes</a></li>
+		<li><a href="{% url product_url %}">fondant cakes</a></li>
+		<li><a href="{% url product_url %}">cream cakes</a></li>
+		<li><a href="{% url product_url %}">cupcakes</a></li>
+		<li><a href="{% url product_url %}">sugar-free cakes</a></li>
+		<li><a href="{% url product_url %}">cheese cakes</a></li>
+		<li><a href="{% url product_url %}">cookies</a></li>
+		<!--<li><a href="{% url product_url %}">swiss roll</a></li>-->
+		<li><a href="{% url product_url %}">other desserts</a></li>
 	</ul>
-	<a href="index.html"><img src="/static/images/wedding-cupcakes-large.jpg" alt="Image"/></a>
+	<div style="height:360px">
+		<a href="index.html"><img src="/static/images/wedding-cupcakes-large.jpg" alt="Image"/></a>
+	</div>
 </div>
 {% endblock %}
 {% block pagecontent %}
@@ -41,4 +43,9 @@
 		</ul>
 	</div>
 </div>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
 {% endblock %}
