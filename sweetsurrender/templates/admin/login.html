@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Admin Logon</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/adminstyles.css" />
+	</head>
+	<body>
+		<form class="form-2" action="{% url admin_login %}" method="post">
+			{% csrf_token %}
+		    <h1><span class="log-in">Cakeshop</span>   <span class="log-in">admin login</span></h1>
+		    <p class="float">
+		        <label for="login"><i class="icon-user"></i>Username</label>
+		        <input type="text" name="username" placeholder="Username">
+		    </p>
+		    <p class="float">
+		        <label for="password"><i class="icon-lock"></i>Password</label>
+		        <input type="password" name="password" placeholder="Password" class="showpassword"> 
+		    </p>
+		    <p class="clearfix">			            
+		        <input type="submit" name="submit" value="Log in">
+		    </p>       
+		</form>
+	</body>
+</html>

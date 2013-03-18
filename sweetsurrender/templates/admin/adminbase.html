@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Cakeshop admin</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/adminstyles.css" />
+		<script type="text/javascript" src="/static/scripts/jquery-1.7.1.min.js"></script>		
+	</head>
+	<body>
+		<div id="header">
+			<div id="top-navigation-wrap">
+				<ul id="top-navigation">
+					<li><a href="http://speckyboy.com/" title="Home"><span>Home</span></a></li>
+					<li><a href="http://speckyboy.com/monthly-archives/" title="Article Archives" rel="nofollow"><span>Archives</span></a></li>
+					<li><a href="http://speckyboy.com/contact/" title="Contact" rel="nofollow"><span>About &amp; Contact</span></a></li>
+					<li><a href="http://speckyboy.com/advertise-with-us/" title="Advertise" rel="nofollow"><span>Advertise</span></a></li>
+					<li><a href="http://speckyboy.com/contribute-an-article/" title="Write for Us" rel="nofollow"><span>Write for Us</span></a></li></ul>
+				</ul>
+			</div>
+			<div id="tabs-container">
+				{% block pagecontent %}{% endblock %}
+			</div>
+		</div>
+	</body>
+</html>

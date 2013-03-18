@@ -11,6 +11,9 @@ urlpatterns = patterns('',
     url(r'^sweetsurrender/$', 'sweetsurrender.views.home', name='home_url'),
     url(r'^sweetsurrender/product/$', 'sweetsurrender.views.product', name='product_url'),
     url(r'^sweetsurrender/about/$', 'sweetsurrender.views.about',name='aboutus_url'),
+    url(r'^sweetsurrender/admin/$', 'sweetsurrender.backend.views.load_login_page',name='admin_load_login'),
+    url(r'^sweetsurrender/admin/login/$', 'sweetsurrender.backend.views.login',name='admin_login'),
+    url(r'^sweetsurrender/admin/home/$', 'sweetsurrender.backend.views.admin_home',name='admin_home'),
     
     # url(r'^sweetsurrender/', include('sweetsurrender.foo.urls')),
 
